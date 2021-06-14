@@ -19,7 +19,10 @@ def encrypt(text,s):
  
 #check the above function
 print("Enter File Name to Be Encrypted")
-text = input()
+file_name = input()
+file = open('file_name.txt','r')
+text = file.read()
+
 s = 4
 print("Text  : " + text)
 print("Shift : " + str(s))
