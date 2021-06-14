@@ -20,7 +20,7 @@ def encrypt(text,s):
 #check the above function
 print("Enter File Name to Be Encrypted")
 file_name = input()
-file = open('file_name.txt','r')
+file = open(file_name + '.txt','r')
 text = file.read()
 
 s = 4
